@@ -10,7 +10,6 @@ RUN npm install -g @nestjs/cli
 RUN npm install
 
 COPY . .
-RUN npm run build
 
 # Etapa 2: Produção
 FROM node:18-alpine
