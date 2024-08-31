@@ -1,6 +1,6 @@
 import { UpdatePlanDto } from './dto/update-plan.dto';
 import { CreatePlanDto } from './dto/create-plan.dto';
-import { GetTasksFilterDto } from './dto/get-tasks-filter.dto';
+import { GetTasksFilterDto } from './dto/get-plans-filter.dto';
 import { Injectable } from '@nestjs/common';
 import { Plan } from './plan.model';
 import { PlanStatus } from './plan-status.enum';

@@ -1,6 +1,6 @@
 import { CreatePlanDto } from './dto/create-plan.dto';
 import { UpdatePlanDto } from './dto/update-plan.dto';
-import { GetTasksFilterDto } from './dto/get-tasks-filter.dto';
+import { GetTasksFilterDto } from './dto/get-plans-filter.dto';
 import { Controller, Get, Post, Body, Param, Delete, Patch, Query } from '@nestjs/common';
 import { PlansService } from './plans.service';
 import { Plan } from './plan.model';
