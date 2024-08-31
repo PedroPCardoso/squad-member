@@ -1,9 +1,11 @@
-import { Controller } from '@nestjs/common';
+import { Controller, Get } from '@nestjs/common';
 import { PlansService } from './plans.service';
+
 @Controller('plans')
 export class PlansController {
     constructor(private plansService: PlansService) { }
-    a
+
+    @Get()
     async getClients() {
         return this.plansService.getAllPlans();
     }
